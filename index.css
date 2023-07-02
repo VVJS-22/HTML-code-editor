@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex__column {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-content__center {
+    justify-content: center;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.form-field {
+    margin: 10px;
+}
+
+textarea {
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+}
+
+._result {
+    border: 1px solid;
+    width: 90%;
+    height: 55vh;
+    margin: 10px;
+    overflow: auto;
+}

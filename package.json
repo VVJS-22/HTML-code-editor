@@ -1,0 +1,11 @@
+{
+  "name": "html-code-editor",
+  "version": "1.0.0",
+  "description": "A simple HTML code editor to render html and css based on user input on an isolated window.",
+  "main": "editor.js",
+  "author": "Jayesh Sugumaran <jayeshsugumaran@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "docdash": "^2.0.1"
+  }
+}

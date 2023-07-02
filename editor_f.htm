@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML EDITOR</title>
+    <link rel="stylesheet" href="index.css">
+    <style></style>
+</head>
+<body>
+    <div class="_editors flex">
+        <div class="form-field flex__column justify-content__center gap">
+            <label for="html">HTML EDITOR</label>
+            <textarea id="html" oninput="renderHTML(this)"></textarea>
+        </div>
+        <div class="form-field flex__column justify-content__center gap">
+            <label for="css">CSS EDITOR</label>
+            <textarea id="css" oninput="renderCSS(this)"></textarea>
+        </div>
+    </div>
+    <section id="js_result" class="_result">
+    </section>
+    <script src="editor_f.js"></script>
+</body>
+</html>
